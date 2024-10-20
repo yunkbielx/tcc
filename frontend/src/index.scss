@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+  margin: 0px;
+  font-family: 'verdana';
+};
+
+.pagina{
+
+  .botoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 18px;
+    gap: 15px;
+
+    .botao{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      background-color: #000000;
+      color: #ffff;
+      width: 155px;
+      height: 51px;
+      border-radius: 19px;
+    }
+  }
+
+  .cabecalho{
+    margin: auto;
+    max-width: 1100px;
+    max-height: 100px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: #dfdfdf solid 1px;
+    border-radius: 11px;
+    box-shadow: 2px 3px 0px 0px rgba(#000000, 0.2);
+    gap: 10px;
+    background-color: #f1f1f1;
+  
+    .logo{
+      width: 90px;
+      height: 70px;
+      display: flex;
+    }
+
+    .area-links{
+      display: flex;
+      gap: 40px;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      
+      p{
+        font: 300 18px 'Roboto';
+        text-align: center;
+      }
+    }
+
+    .text-foto{ 
+      width: 220px;
+      display: flex;
+      padding-bottom: 14px;
+    }
+
+    .contat-foto{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+      width: 80px;
+      height: 65px; 
+    }
+  }
+}

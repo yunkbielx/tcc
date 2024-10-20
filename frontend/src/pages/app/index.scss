@@ -1,0 +1,22 @@
+
+.texto{
+    padding: 20px 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+
+    .titulo-text{
+        padding: 35px 0px 20px 0px;
+        font-size: 40px;
+    }
+
+    .introducao{
+        font-size: 22px;
+        text-align: center;
+        justify-content: center;    
+        width:  700px;
+        
+    }
+}
