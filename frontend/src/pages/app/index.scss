@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
 
 .texto{
     padding: 20px 3%;
@@ -6,17 +7,30 @@
     justify-content: center;
     flex-direction: column;
     margin: 10px;
+    color: #ffff;
+
+    .barber{
+        font-size: 110px;
+        font-family: "Pirata One";
+        padding-bottom: 80px;
+    }
 
     .titulo-text{
         padding: 35px 0px 20px 0px;
-        font-size: 40px;
+        font-size: 44px;
+        width: 700px;
+        text-align: center;
     }
 
     .introducao{
-        font-size: 22px;
+        font-size: 28px;
         text-align: center;
         justify-content: center;    
         width:  700px;
-        
+        padding-top: 40px;
+    }
+
+    .baixo{
+        padding-top: 50px;
     }
 }
