@@ -30,6 +30,12 @@ export default function App() {
           <Link to="/client" className='botao'>Cadastrar</Link>
           <Link to="/client" className='botao'>Entrar</Link>
         </div>
+        <div className='linha'></div>
+        <div className='redes'>
+          <img src="/assest/images/whatsapp.png" className=''/>
+          <img src="/assest/images/facebook.png" className=''/>
+          <img src="/assest/images/instagram.png" className=''/>
+        </div>
     </div>
   );
 }

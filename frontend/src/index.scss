@@ -27,6 +27,25 @@
     }
   }
 
+  .redes{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+  }
+
+  .linha{
+    width: 1100px;
+    height: 4px;
+    display: flex;
+    background-color: #000000;
+    justify-content: center;
+    align-items: center;
+    margin: 200px auto;
+    margin-bottom: 0px;
+  }
+
   .cabecalho{
     margin: auto;
     max-width: 1100px;
