@@ -9,14 +9,13 @@ export default function App() {
       <header className='cabecalho'>
         <img src="/assets/images/logo.png" className='logo'/>
         <div className='area-links'>
-          <p>Home</p>
-          <p>Sobre Nós</p>
-          <p>Serviços</p>
+          <p>SOBRE NÓS</p>
+          <p>SERVIÇOS</p>
         </div>
           <img src="/assets/images/text.png" className='text-foto' />
-        <div className='area-links'>
-          <p>shop</p>
-          <p>contato</p>
+        <div className='area-links2'>
+          <p>SHOP</p>
+          <p>CONTATO</p>
         </div>
         <img src="/assets/images/contat.png" className='contat-foto' />
       </header>
@@ -32,9 +31,9 @@ export default function App() {
         </div>
         <div className='linha'></div>
         <div className='redes'>
-          <img src="/assest/images/whatsapp.png" className=''/>
-          <img src="/assest/images/facebook.png" className=''/>
-          <img src="/assest/images/instagram.png" className=''/>
+          <img src="/assets/images/whatsapp.png" className='imgContat'/>
+          <img src="/assets/images/facebook.png" className='imgContat'/>
+          <img src="/assets/images/instagram.png" className='imgContat'/>
         </div>
     </div>
   );
