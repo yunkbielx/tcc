@@ -51,8 +51,7 @@ export default function App() {
                 <section className="services-section">
                     <h2>Serviços</h2>
                     <p>
-                    Transforme seu visual com nossos cuidados especializados. Aqui na Ale Barber, oferecemos uma experiência única, desde cortes clássicos até estilos modernos. Venha descobrir o seu estilo cu!
-
+                    Transforme seu visual com nossos cuidados especializados. Aqui na Ale Barber, oferecemos uma experiência única, desde cortes clássicos até estilos modernos. Venha descobrir o que podemos fazer por você!
                     </p>
                 </section>
                 
