@@ -6,8 +6,7 @@ export default function App() {
     return(
         <div className='pagina-cliente pagina2'>
             <img src="/assets/images/img1.png" alt="corte de cabelo" />
-            <img src="/assets/images/img2.png" alt="corte de cabelo" />
-            <img src="/assets/images/img3.png" alt="corte de cabelo" />
+
             <h2>Sobre</h2>
             <p>Bem-vindo à Ale Barber! Aqui, a gente não faz só cortes; a gente cria experiências. Somos um time de apaixonados por estilo, prontos para transformar seu visual e elevar sua autoestima.
 Desde a nossa abertura, a ideia é simples: oferecer um espaço descontraído, onde você pode relaxar, bater um papo e sair se sentindo incrível. A gente acredita que cada detalhe conta, desde um corte bem feito até aquele atendimento acolhedor.

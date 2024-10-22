@@ -3,11 +3,17 @@
 * {
   margin: 0px;
   font-family: 'verdana';
+  // border: #dc143c solid 1px;
 };
 
 body {
-  background: #020024;
+  background: #000000;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  
 }
+
 
 .botao{
   display: flex;
@@ -60,3 +66,112 @@ body {
  }
 }
 
+.sobre{
+   display: flex;
+    flex-direction: column;
+    background-color: #fffffffd;
+   width: 2920px;
+    height: 1080px;
+  
+  }
+
+  
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  
+}
+
+.sobre {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-right: 100px;
+  padding-top: 180px;
+}
+
+.about-section {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.about-section img {
+  width: 45%;
+  border-radius: 10px;
+}
+
+.about-section .text {
+  width: 50%;
+}
+
+.about-section h2 {
+  font-size: 2rem;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.about-section p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+.services-section {
+  text-align: center;
+  margin-top: 0px;
+}
+
+.services-section h2 {
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+.services-section p {
+  font-size: 1rem;
+  color: #ffffff;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.image-grid {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.image-grid img {
+  width: 578px;
+  height: 675px;
+  border-radius: 10px;
+  padding-left: 150px;
+
+}
+
+.schedule-button {
+  display: block;
+  text-align: center;
+  margin: 30px auto;
+  padding: 10px 20px;
+  background-color: #ff7f00;
+  color: white;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.schedule-button:hover {
+  background-color: #e06900;
+}
+
+.serviços{
+  display: flex;
+  flex-direction: column;
+  background-color: #000;
+}
